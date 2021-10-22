@@ -1,4 +1,4 @@
-name: Digital-Privacy
+name: free
 on:
   push:
     branches:
