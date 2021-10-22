@@ -1,3 +1,4 @@
+name: Red-Teaming-Toolkit
 on:
   push:
     branches:
