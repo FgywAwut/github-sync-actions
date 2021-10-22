@@ -4,7 +4,7 @@ on:
     branches:
       -master
   schedule:
-    - cron: * */8 * * *   # 间隔时间
+    - cron: '* */8 * * *'   # 间隔时间
 jobs:
   update_external_airflow_fork:
     runs-on: ubuntu-latest
