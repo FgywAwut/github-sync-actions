@@ -5,6 +5,7 @@ on:
       -master
   schedule:
     - cron: 0/5 * * * *   # 间隔时间
+  workflow_dispatch:
 jobs:
   update_external_airflow_fork:
     runs-on: ubuntu-latest
