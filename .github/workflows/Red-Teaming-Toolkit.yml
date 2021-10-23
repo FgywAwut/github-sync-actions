@@ -1,10 +1,7 @@
 name: Red-Teaming-Toolkit
 on:
-  push:
-    branches:
-      -master
   schedule:
-    - cron: '1 */8 * * *'   # 间隔时间
+    - cron: '*/1 * * * *'   # 间隔时间
 jobs:
   update_external_airflow_fork:
     runs-on: ubuntu-latest
