@@ -1,8 +1,5 @@
 name: Digital-Privacy
 on:
-  push:
-    branches:
-      -master
   schedule:
     - cron: '0 */8 * * *'   # 间隔时间
 jobs:
