@@ -1,8 +1,5 @@
 name: Scanners-Box
 on:
-  push:
-    branches:
-      -master
   schedule:
     - cron: '2 */8 * * *'   # 间隔时间
 jobs:
