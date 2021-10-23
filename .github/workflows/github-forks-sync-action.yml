@@ -1,8 +1,5 @@
 name: github-forks-sync-action
 on:
-  push:
-    branches:
-      -master
   schedule:
     - cron: '3 */8 * * *'   # 间隔时间
 jobs:
