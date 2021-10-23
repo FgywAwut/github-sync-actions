@@ -1,5 +1,6 @@
 name: Red-Teaming-Toolkit
 on:
+  push:
   schedule:
     - cron: '1 */8 * * *'   # 间隔时间
 jobs:
