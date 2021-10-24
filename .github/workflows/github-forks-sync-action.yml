@@ -1,5 +1,6 @@
 name: github-forks-sync-action
 on:
+  workflow_dispatch:
   schedule:
     - cron: '3 */8 * * *'   # 间隔时间
 jobs:
