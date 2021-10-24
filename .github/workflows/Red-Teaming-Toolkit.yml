@@ -1,5 +1,6 @@
 name: Red-Teaming-Toolkit
 on:
+  workflow_dispatch:
   schedule:
     - cron: '1 */8 * * *'   # 间隔时间
 jobs:
