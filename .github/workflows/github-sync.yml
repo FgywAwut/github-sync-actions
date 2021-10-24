@@ -1,5 +1,6 @@
 name: github-sync
 on:
+  workflow_dispatch:
   schedule:
     - cron: '4 */8 * * *'   # 间隔时间
 jobs:
