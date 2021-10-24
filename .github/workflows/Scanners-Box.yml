@@ -1,5 +1,6 @@
 name: Scanners-Box
 on:
+  workflow_dispatch:
   schedule:
     - cron: '2 */8 * * *'   # 间隔时间
 jobs:
