@@ -1,5 +1,6 @@
 name: git-sync
 on:
+  workflow_dispatch:
   schedule:
     - cron: '5 */8 * * *'   # 间隔时间
 jobs:
