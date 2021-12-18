@@ -2,7 +2,7 @@ name: git-sync
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */8 * * *'   # 间隔时间
+    - cron: 44 4 * * *'   # 间隔时间
 jobs:
   update_external_airflow_fork:
     runs-on: ubuntu-latest
